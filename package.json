@@ -1,0 +1,18 @@
+{
+  "name": "worldly_wisdom",
+  "version": "0.0.1",
+  "description": "Balthasar Gracian's Art of Worldly Wisdom",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~3.0.0",
+    "less-middleware": "~0.1.15", 
+    "jade": ">= 1.1.5",
+
+    "mocha": ">= 1.9.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node web.js"
+  },
+  "author": "Seth Bonnie"
+}
