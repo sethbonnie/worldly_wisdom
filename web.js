@@ -1,7 +1,9 @@
-var less = require('less-middleware');
-var path = require('path');
-var express = require('express');
-var app = express();
+var less = require('less-middleware')
+  , path = require('path')
+  , express = require('express')
+  , compress = require('compression')
+  
+  , app = express();
 
 app.configure(function() {
   app.set('view engine', 'jade');
@@ -12,6 +14,8 @@ app.configure(function() {
     root: path.join(__dirname, 'public'),
     compress: true
   }));
+
+  app.use(compress());
   app.use(express.static( path.join(__dirname, 'public') ));
 
   app.use(express.logger('short'));
