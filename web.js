@@ -27,11 +27,22 @@ var index = function(req, res) {
   res.render('app.jade', {layout: false});
 };
 
+/** The following routes are enumerated within the angular app
+    itself, so we want to render the main index page and give
+    control over to the client-side app.
+  **/
 app.get('/', index);
-
 app.get(/^\/maxims\/?/, index);
-
 app.get(/^\/maxims\/\d/, index);
+
+/** Templates **/
+app.get('/views/title-page', function(req, res) {
+  res.render('title_page.jade', {layout: false});
+})
+
+app.get('/views/maxim', function(req, res) {
+  res.render('maxim.jade', {layout: false});
+})
 
 // Start Up!
 var PORT = process.env.PORT || 8080; // good odds
