@@ -2,6 +2,7 @@ var less = require('less-middleware')
   , path = require('path')
   , express = require('express')
   , compress = require('compression')
+  , Maxim = require('./maxim')
   
   , app = express();
 
@@ -22,6 +23,8 @@ app.configure(function() {
   app.use(express.bodyParser());
 });
 
+
+
 // Entry Points
 var index = function(req, res) {
   res.render('app.jade', {layout: false});
@@ -35,7 +38,22 @@ app.get('/', index);
 app.get(/^\/maxims\/?/, index);
 app.get(/^\/maxims\/\d/, index);
 
-/** Templates **/
+
+// API
+app.get('/api/maxim/titles', function(req, res) {
+  res.type('json');
+  res.json(Maxim.titles());
+});
+app.get('/api/maxim/:from/thru/:to', function(req, res) {
+  var start = req.params.from
+    , end   = req.params.to;
+
+  res.type('json');
+  res.json(Maxim.bodies.from(start).to(end));
+});
+
+
+// Templates
 app.get('/views/title-page', function(req, res) {
   res.render('title_page.jade', {layout: false});
 })
@@ -43,6 +61,7 @@ app.get('/views/title-page', function(req, res) {
 app.get('/views/maxim', function(req, res) {
   res.render('maxim.jade', {layout: false});
 })
+
 
 // Start Up!
 var PORT = process.env.PORT || 8080; // good odds
