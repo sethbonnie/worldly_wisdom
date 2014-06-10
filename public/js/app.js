@@ -1,5 +1,7 @@
 angular.module('WorldlyWisdom', ['ngRoute'])
 
+.constant('TotalMaxims', 300)
+
 .config(['$routeProvider', '$locationProvider', 
 function($routeProvider, $locationProvider) {
   $routeProvider
