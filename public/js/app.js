@@ -20,10 +20,4 @@ function($routeProvider, $locationProvider) {
 
   // configure html5 to get links working on jsfiddle
   $locationProvider.html5Mode(true);
-}])
-
-.run(['$rootScope', 'Maxim', function($rootScope, Maxim) {
-  Maxim.titles(function(titles) {
-    $rootScope.titles = titles;
-  })
 }]);

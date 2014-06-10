@@ -1,10 +1,13 @@
 angular.module('WorldlyWisdom')
 .controller('MaximCtrl', 
-  ['$scope', '$routeParams', 'Maxim', '$location', 'TotalMaxims', '$rootScope',  
-function($scope, $routeParams, Maxim, $location, TotalMaxims, $rootScope) {
+  ['$scope', '$routeParams', 'Maxim', '$location', 'TotalMaxims', 
+function($scope, $routeParams, Maxim, $location, TotalMaxims) {
   $scope.numero = normalizeId();
 
-  $scope.title = $rootScope.titles[$scope.numero];
+  Maxim.titles(function(titles) {
+    $scope.title = titles[$scope.numero];
+    console.log(titles);
+  })
   
   Maxim.body($scope.numero, function(maxim) {
     $scope.body = maxim;
