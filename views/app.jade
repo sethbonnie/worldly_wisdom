@@ -29,12 +29,12 @@ html(ng-app='WorldlyWisdom')
 
       #main(ng-controller="MainCtrl")
         .prev-arrow
-          i.fa.fa-chevron-left
+          i.fa.fa-chevron-left(ng-click="prevMaxim()")
 
         .maxim(ng-view)
 
         .next-arrow
-          i.fa.fa-chevron-right
+          i.fa.fa-chevron-right(ng-click="nextMaxim()")
 
     //- Libraries
     script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js')
@@ -43,6 +43,7 @@ html(ng-app='WorldlyWisdom')
 
     //- App Specific
     script(src='/js/app.js')
+    script(src='/js/services/Maxim.js')
     script(src='/js/controllers/AppCtrl.js')
     script(src='/js/controllers/MenuCtrl.js')
     script(src='/js/controllers/MainCtrl.js')
