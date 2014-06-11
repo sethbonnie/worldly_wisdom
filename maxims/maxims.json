@@ -1,31 +1,1502 @@
 {
   "1": {
-    "id": 1,
     "title": "Everything is at its Acme",
-    "body": "Especially the art of making one's way in the world. There is more required nowadays to make a single wise man than formerly to make Seven Sages, and more is needed nowadays to deal with a single person than was required with a whole people in former times."
+    "body": "This is especially true of the art of making one's way in the world. There is more required nowadays to make a single wise person than formerly to make the Seven Sages of ancient Greece, and more is needed nowadays to make a single person than was required with a whole people in former times."
   },
 
   "2": {
-    "id": 2,
     "title": "Character and Intellect",
     "body": "The two poles of our capacity; one without the other is but halfway to happiness. Intellect sufficeth not, character is also needed. On the other hand, it is the fool's misfortune to fail in obtaining the position, the employment, the neighbourhood, and the circle of friends that suit him."
   },
 
   "3": {
-    "id": 3,
     "title": "Keep Matters for a Time in Suspense",
-    "body": "Admiration at their novelty heightens the value of your achievements. It is both useless and insipid to play with the cards on the table. If you do not declare youself immediately, you arouse expectation, especially when the importance of your position makes you the object of general attention. Mix a little mystery with everything, and the very mystery arouses veneration. And when you explain, be not too explicit, just you do not expose your inmost thoughts in ordinary intercourse. Cautious silence is the holy of holies of worldly wisdom. A resolution declared is never highly though of; it only leaves room for criticism. And if it happens to fail, you are doubly unfortunate. Besides you imitate the Divine way when you cause men to wonder and watch."
+    "body": "Admiration at their novelty heightens the value of your achievements. It is both useless and insipid to play with your cards on the table. If you do not declare yourself immediately, you arouse expectation, especially when the importance of your position makes you the object of general attention. Mix a little with everything, and the very mystery arouses veneration. And when you explain, do not be too explicit, just as you do not expose your inmost thoughts in ordinary conversation. Cautious silence is the sacred sanctuary of worldly wisdom. A resolution declared is never highly thought of - it only leaves room for criticism. And if it happens to fail, you are doubly unfortunate. Besides, you imitate the divine way when you inspire people to wonder and watch."
   },
 
   "4": {
-    "id": 4,
     "title": "Knowledge and Courage",
-    "body": "These are the elements of greatness. They give immortality, because they are immortal. Each is as much as he knows, and the wise can do anything. A man without knowledge, a world without light. Wisdom and strength, eyes and hands. Knowledge without courage is sterile."
+    "body": "These are the elements of greatness. Because they are immortal, they bestow immortality. Each is as much as he knows, and the wise can do anything. A person without knowledge is in a world without light. Wisdom and strength are the eyes and hands. Knowledge without courage is sterile."
   },
 
   "5": {
-    "id": 5,
     "title": "Create a Feeling of Dependence",
-    "body": "not he that adorns but he that adores makes a divinity. The wise man would rather see men needing him than thanking him. To keep them on the threshold of hope is diplomatic, to trust to their gratitude boorish; hope has a good memory, gratitude a bad one. More is to be got from dependence than from courtesy. He that has satisfied his thirst turns his back on the well, and the orange once sucked falls from the golden platter into the waste-basket. When dependence disappears, good behaviour goes with it as well as respect. Let it be one of the chief lessons of experience to keep hope alive without entirely satisfying it, by preserving it to make oneself always needed even by a patron on the throne. But let not silence be carried to excess lest you go wrong, nor let another's failing grow incurable for the sake of your own advantage."
+    "body": "It is not he that adorns but he that adores that makes a divinity. The wise person would rather see others needing him than thanking him. To keep them on the threshold of hope is diplomatic, to trust to their gratitude is boorish; hope has a good memory, gratitude a bad one. More is to be got from dependence than from courtesy. He that has satisfied his thirst turns his back on the well, and the orange once squeezed fall from the golden platter into the waste basket. When dependence disappears good behavior goes with it, as well as respect. Let it be one of the chief lessons of experience to keep hope alive without entirely satisfying it, by preserving it to make oneself always needed, even by a patron on the throne. But do not carry silence to excess or you will go wrong, nor let another's failing grow incurable for the sake of your own advantage."
+  },
+
+  "6": {
+    "title": "A Man at his Highest Point",
+    "body": "We are not born perfect: every day we develop in our personality and in our calling till we reach the highest point of our completed being, to the full round of our accomplishments, of our excellences. This is known by the purity of our taste, the clearness of our thought, the maturity of our judgment, and the firmness of our will. Some never arrive at being complete − something is always wanting; others ripen late. The complete man, wise in speech, prudent in act, is admitted to the familiar intimacy of discreet persons, is even sought for by them."
+  },
+
+  "7": {
+    "title": "Avoid Victories Over Superiors",
+    "body": ""
+  },
+
+  "8": {
+    "title": "To be without Passions",
+    "body": ""
+  },
+
+  "9": {
+    "title": "Avoid the Faults of your Nation",
+    "body": ""
+  },
+
+  "10": {
+    "title": "Fortune and Fame",
+    "body": ""
+  },
+
+  "11": {
+    "title": "Cultivate those who can teach you",
+    "body": ""
+  },
+
+  "12": {
+    "title": "Nature and Art",
+    "body": ""
+  },
+
+  "13": {
+    "title": "Act sometimes on Second Thoughts, sometimes on First Impulse",
+    "body": ""
+  },
+
+  "14": {
+    "title": "The Think Itself and the Way it is done",
+    "body": ""
+  },
+
+  "15": {
+    "title": "Keep Ministering Spirits",
+    "body": ""
+  },
+
+  "16": {
+    "title": "Knowledge and Good Intentions",
+    "body": ""
+  },
+
+  "17": {
+    "title": "Vary the Mode of Action",
+    "body": ""
+  },
+
+  "18": {
+    "title": "Application and Ability",
+    "body": ""
+  },
+
+  "19": {
+    "title": "Arouse no Exaggerated Expectations on entering",
+    "body": ""
+  },
+
+  "20": {
+    "title": "A Man of the Age",
+    "body": ""
+  },
+
+  "21": {
+    "title": "The Art of Being Lucky",
+    "body": ""
+  },
+
+  "22": {
+    "title": "A Man of Knowledge to the Point",
+    "body": ""
+  },
+
+  "23": {
+    "title": "Be Spotless",
+    "body": ""
+  },
+
+  "24": {
+    "title": "Keep the Imagination under Control",
+    "body": ""
+  },
+
+  "25": {
+    "title": "Know how to take a Hint",
+    "body": ""
+  },
+
+  "26": {
+    "title": "Find out each Man's Thumbscrew",
+    "body": ""
+  },
+
+  "27": {
+    "title": "Prize Intensity more than Extent",
+    "body": ""
+  },
+
+  "28": {
+    "title": "Common in Nothing",
+    "body": ""
+  },
+
+  "29": {
+    "title": "A Man of Rectitude",
+    "body": ""
+  },
+
+  "30": {
+    "title": "Have naught to do with Occupations of Ill-repute",
+    "body": ""
+  },
+
+  "31": {
+    "title": "Select the Lucky and avoid the Unlucky",
+    "body": ""
+  },
+
+  "32": {
+    "title": "Have the Reputation of being Gracious",
+    "body": ""
+  },
+
+  "33": {
+    "title": "Know how to Withdraw",
+    "body": ""
+  },
+
+  "34": {
+    "title": "Know your strongest Point",
+    "body": ""
+  },
+
+  "35": {
+    "title": "Think over Things, most over the most Important",
+    "body": ""
+  },
+
+  "36": {
+    "title": "In Acting or Refraining, weigh your Luck",
+    "body": ""
+  },
+
+  "37": {
+    "title": "Keep a Store of Sarcasms, and know how to use them",
+    "body": ""
+  },
+
+  "38": {
+    "title": "Leave your Luck while Winning",
+    "body": ""
+  },
+
+  "39": {
+    "title": "Recognise when Things are ripe, and then enjoy them",
+    "body": ""
+  },
+
+  "40": {
+    "title": "The Goodwill of People",
+    "body": ""
+  },
+
+  "41": {
+    "title": "Never Exaggerate",
+    "body": ""
+  },
+
+  "42": {
+    "title": "Born to Command",
+    "body": ""
+  },
+
+  "43": {
+    "title": "Think with the Few and speak with the Many",
+    "body": ""
+  },
+
+  "44": {
+    "title": "Sympathy with great Minds",
+    "body": ""
+  },
+
+  "45": {
+    "title": "Use, but do not abuse, Cunning",
+    "body": ""
+  },
+
+  "46": {
+    "title": "Master your Antipathies",
+    "body": ""
+  },
+
+  "47": {
+    "title": "Avoid 'Affaris of Honour'",
+    "body": ""
+  },
+
+  "48": {
+    "title": "Be Thorough",
+    "body": ""
+  },
+
+  "49": {
+    "title": "Observation and Judgment",
+    "body": ""
+  },
+
+  "50": {
+    "title": "Never lose Self-Respect",
+    "body": ""
+  },
+
+  "51": {
+    "title": "Know how to Choose well",
+    "body": ""
+  },
+
+  "52": {
+    "title": "Never be put out",
+    "body": ""
+  },
+
+  "53": {
+    "title": "Diligent and Intelligent",
+    "body": ""
+  },
+
+  "54": {
+    "title": "Know how to show your Teeth",
+    "body": ""
+  },
+
+  "55": {
+    "title": "Wait",
+    "body": ""
+  },
+
+  "56": {
+    "title": "Have Presence of Mind",
+    "body": ""
+  },
+
+  "57": {
+    "title": "Slow and Sure",
+    "body": ""
+  },
+
+  "58": {
+    "title": "Adapt Yourself to your Company",
+    "body": ""
+  },
+
+  "59": {
+    "title": "Finish off well",
+    "body": ""
+  },
+
+  "60": {
+    "title": "A Sound Judgment",
+    "body": ""
+  },
+
+  "61": {
+    "title": "To Excel in what is Excellent",
+    "body": ""
+  },
+
+  "62": {
+    "title": "Use good Instruments",
+    "body": ""
+  },
+
+  "63": {
+    "title": "To be the First of the Kind is an Excellence",
+    "body": ""
+  },
+
+  "64": {
+    "title": "Avoid Worry",
+    "body": ""
+  },
+
+  "65": {
+    "title": "Elevated Taste",
+    "body": ""
+  },
+
+  "66": {
+    "title": "See that Things end well",
+    "body": ""
+  },
+
+  "67": {
+    "title": "Prefer Callings",
+    "body": ""
+  },
+
+  "68": {
+    "title": "It is better to help with Intelligence than with Memory",
+    "body": ""
+  },
+
+  "69": {
+    "title": "Do not give way to every common Impulse",
+    "body": ""
+  },
+
+  "70": {
+    "title": "Know how to Refuse",
+    "body": ""
+  },
+
+  "71": {
+    "title": "Do not Vacillate",
+    "body": ""
+  },
+
+  "72": {
+    "title": "Be Resolute",
+    "body": ""
+  },
+
+  "73": {
+    "title": "Utilise Slips",
+    "body": ""
+  },
+
+  "74": {
+    "title": "Do not be Unsociable",
+    "body": ""
+  },
+
+  "75": {
+    "title": "Choose an Heroic Ideal",
+    "body": ""
+  },
+
+  "76": {
+    "title": "Do not always be Jesting",
+    "body": ""
+  },
+
+  "77": {
+    "title": "Be all Things to all Men",
+    "body": ""
+  },
+
+  "78": {
+    "title": "The Art of undertaking Things",
+    "body": ""
+  },
+
+  "79": {
+    "title": "A Genial Disposition",
+    "body": ""
+  },
+
+  "80": {
+    "title": "Take cate to get Information",
+    "body": ""
+  },
+
+  "81": {
+    "title": "Renew your Brilliance",
+    "body": ""
+  },
+
+  "82": {
+    "title": "Drain Nothing to the Dregs, neither Good nor Ill",
+    "body": ""
+  },
+
+  "83": {
+    "title": "Allow Yourself some venial Fault",
+    "body": ""
+  },
+
+  "84": {
+    "title": "Make use of your Enemies",
+    "body": ""
+  },
+
+  "85": {
+    "title": "Do not play Manille",
+    "body": ""
+  },
+
+  "86": {
+    "title": "Prevent Scandal",
+    "body": ""
+  },
+
+  "87": {
+    "title": "Culture and Elegance",
+    "body": ""
+  },
+
+  "88": {
+    "title": "Let Your Behaviour be Fine and Noble",
+    "body": ""
+  },
+
+  "89": {
+    "title": "Know Yourself",
+    "body": ""
+  },
+
+  "90": {
+    "title": "The Secret to Long Life",
+    "body": ""
+  },
+
+  "91": {
+    "title": "Never set to work at Anything if you have any Doubts of its Prudence",
+    "body": ""
+  },
+
+  "92": {
+    "title": "Transcendant Wisdom",
+    "body": ""
+  },
+
+  "93": {
+    "title": "Versatility",
+    "body": ""
+  },
+
+  "94": {
+    "title": "Keep the extent of your Abilities unknown",
+    "body": ""
+  },
+
+  "95": {
+    "title": "Keep Expectation alive",
+    "body": ""
+  },
+
+  "96": {
+    "title": "The highest Discretion",
+    "body": ""
+  },
+
+  "97": {
+    "title": "Obtain and preserve a Reputation",
+    "body": ""
+  },
+
+  "98": {
+    "title": "Write your Intentions in Cypher",
+    "body": ""
+  },
+
+  "99": {
+    "title": "Reality and Appearance",
+    "body": ""
+  },
+
+  "100": {
+    "title": "A Man without Illusions, a wise Christian, a philosophic Courtier",
+    "body": ""
+  },
+
+  "101": {
+    "title": "One half of the World laughs at the other, and Fools are they all",
+    "body": ""
+  },
+
+  "102": {
+    "title": "Be able to stomach big slices of Luck",
+    "body": ""
+  },
+
+  "103": {
+    "title": "Let each keep up his Dignity",
+    "body": ""
+  },
+
+  "104": {
+    "title": "Try your hand at Office",
+    "body": ""
+  },
+
+  "105": {
+    "title": "Don't be a Bore",
+    "body": ""
+  },
+
+  "106": {
+    "title": "Do not parade your Position",
+    "body": ""
+  },
+
+  "107": {
+    "title": "Show no Self-satisfaction",
+    "body": ""
+  },
+
+  "108": {
+    "title": "The Path to Greatness is along with Others",
+    "body": ""
+  },
+
+  "109": {
+    "title": "Be not Censorious",
+    "body": ""
+  },
+
+  "110": {
+    "title": "Do not wait till you are a Sinking Sun",
+    "body": ""
+  },
+
+  "111": {
+    "title": "Have Friends",
+    "body": ""
+  },
+
+  "112": {
+    "title": "Gain Goodwill",
+    "body": ""
+  },
+
+  "113": {
+    "title": "In Prosperity prepare for Adversity",
+    "body": ""
+  },
+
+  "114": {
+    "title": "Never Compete",
+    "body": ""
+  },
+
+  "115": {
+    "title": "Get used to the Failings of your Familiars",
+    "body": ""
+  },
+
+  "116": {
+    "title": "Only act with Honourable Men",
+    "body": ""
+  },
+
+  "117": {
+    "title": "Never talk of Yourself",
+    "body": ""
+  },
+
+  "118": {
+    "title": "Acquire the Reputation of Courtesy",
+    "body": ""
+  },
+
+  "119": {
+    "title": "Avoid becoming Disliked",
+    "body": ""
+  },
+
+  "120": {
+    "title": "Live Practically",
+    "body": ""
+  },
+
+  "121": {
+    "title": "Do not make a Business of what is no Business",
+    "body": ""
+  },
+
+  "122": {
+    "title": "Distinction in Speech and Action",
+    "body": ""
+  },
+
+  "123": {
+    "title": "Avoid Affectation",
+    "body": ""
+  },
+
+  "124": {
+    "title": "Get Yourself missed",
+    "body": ""
+  },
+
+  "125": {
+    "title": "Do not be a Black Lister of Faults",
+    "body": ""
+  },
+
+  "126": {
+    "title": "Folly consists not in committing Folly, but in not hiding it when committed",
+    "body": ""
+  },
+
+  "127": {
+    "title": "Grace in Everything",
+    "body": ""
+  },
+
+  "128": {
+    "title": "Highmindedness",
+    "body": ""
+  },
+
+  "129": {
+    "title": "Never Complain",
+    "body": ""
+  },
+
+  "130": {
+    "title": "Do and be seen Doing",
+    "body": ""
+  },
+
+  "131": {
+    "title": "Nobility of Feeling",
+    "body": ""
+  },
+
+  "132": {
+    "title": "Revise your Judgments",
+    "body": ""
+  },
+
+  "133": {
+    "title": "Better Mad with the rest of the World than Wise alone",
+    "body": ""
+  },
+
+  "134": {
+    "title": "Double your Resources",
+    "body": ""
+  },
+
+  "135": {
+    "title": "Do not nourish the Spirit of Contradiction",
+    "body": ""
+  },
+
+  "136": {
+    "title": "Post Yourself in the Center of Things",
+    "body": ""
+  },
+
+  "137": {
+    "title": "The Sage should be Self-sufficing",
+    "body": ""
+  },
+
+  "138": {
+    "title": "The Art of letting Things alone",
+    "body": ""
+  },
+
+  "139": {
+    "title": "Recognise unlucky Days",
+    "body": ""
+  },
+
+  "140": {
+    "title": "Find the Good in a Thing at once",
+    "body": ""
+  },
+
+  "141": {
+    "title": "Do not listen to Yourself",
+    "body": ""
+  },
+
+  "142": {
+    "title": "Never from Obstinacy take the Wrong Side because your Opponent has anticipated you in taking the Right One",
+    "body": ""
+  },
+
+  "143": {
+    "title": "Never become Paradoxical in order to avoid the Trite",
+    "body": ""
+  },
+
+  "144": {
+    "title": "Begin with Another's to end with your Own",
+    "body": ""
+  },
+
+  "145": {
+    "title": "Do not show your wounded Finger",
+    "body": ""
+  },
+
+  "146": {
+    "title": "Look into the Interior of Things",
+    "body": ""
+  },
+
+  "147": {
+    "title": "Do not be Inaccessible",
+    "body": ""
+  },
+
+  "148": {
+    "title": "Have the Art of Conversation",
+    "body": ""
+  },
+
+  "149": {
+    "title": "Know how to put off Ills on Others",
+    "body": ""
+  },
+
+  "150": {
+    "title": "Know how to get your Price for Things",
+    "body": ""
+  },
+
+  "151": {
+    "title": "Think beforehand",
+    "body": ""
+  },
+
+  "152": {
+    "title": "Never have a Companion who casts you in the Shade",
+    "body": ""
+  },
+
+  "153": {
+    "title": "Beware of entering where there is a great Gap to be filled",
+    "body": ""
+  },
+
+  "154": {
+    "title": "Do not Believe, or Like, lightly",
+    "body": ""
+  },
+
+  "155": {
+    "title": "The Art of getting into a Passion",
+    "body": ""
+  },
+
+  "156": {
+    "title": "Select your Friends",
+    "body": ""
+  },
+
+  "157": {
+    "title": "Do not make Mistakes about Character",
+    "body": ""
+  },
+
+  "158": {
+    "title": "Make use of your Friends",
+    "body": ""
+  },
+
+  "159": {
+    "title": "Put up with Fools",
+    "body": ""
+  },
+
+  "160": {
+    "title": "Be careful in Speaking",
+    "body": ""
+  },
+
+  "161": {
+    "title": "Know your pet Faults",
+    "body": ""
+  },
+
+  "162": {
+    "title": "How to triumph over Rivals and Detractors",
+    "body": ""
+  },
+
+  "163": {
+    "title": "Never, from Sympathy with the Unfortunate, involve Yourself in their Fate",
+    "body": ""
+  },
+
+  "164": {
+    "title": "Throw Straws in the Air",
+    "body": ""
+  },
+
+  "165": {
+    "title": "Wage War Honourably",
+    "body": ""
+  },
+
+  "166": {
+    "title": "Distinguish the Man of Words from the Man of Deeds",
+    "body": ""
+  },
+
+  "167": {
+    "title": "Know how to take your own Part",
+    "body": ""
+  },
+
+  "168": {
+    "title": "Do not indulge in the Eccentricities of Folly",
+    "body": ""
+  },
+
+  "169": {
+    "title": "Be more careful not to Miss once than to Hit a hundred times",
+    "body": ""
+  },
+
+  "170": {
+    "title": "In all Things keep Something in Reserve",
+    "body": ""
+  },
+
+  "171": {
+    "title": "Waste not Influence",
+    "body": ""
+  },
+
+  "172": {
+    "title": "Never contend with a Man who has nothing to Lose",
+    "body": ""
+  },
+
+  "173": {
+    "title": "Do not be Glass in Conversation, still less in Friendship",
+    "body": ""
+  },
+
+  "174": {
+    "title": "DO not live in a Hurry",
+    "body": ""
+  },
+
+  "175": {
+    "title": "A Solid Man",
+    "body": ""
+  },
+
+  "176": {
+    "title": "Have Knowledge, or know those that have Knowledge",
+    "body": ""
+  },
+
+  "177": {
+    "title": "Avoid becoming too familiar in Discourse",
+    "body": ""
+  },
+
+  "178": {
+    "title": "Trust your Heart",
+    "body": ""
+  },
+
+  "179": {
+    "title": "Reticence is the Seal of Capacity",
+    "body": ""
+  },
+
+  "180": {
+    "title": "Never guide the Enemy to what he has to do",
+    "body": ""
+  },
+
+  "181": {
+    "title": "The Truth, but not the whole Truth",
+    "body": ""
+  },
+
+  "182": {
+    "title": "A Grain of Boldness in Everything",
+    "body": ""
+  },
+
+  "183": {
+    "title": "Do not hold your Views too firmly",
+    "body": ""
+  },
+
+  "184": {
+    "title": "Do not be Ceremonious",
+    "body": ""
+  },
+
+  "185": {
+    "title": "Never stake your Credit on a single Cast of the Die",
+    "body": ""
+  },
+
+  "186": {
+    "title": "Recognise Faults, however high placed",
+    "body": ""
+  },
+
+  "187": {
+    "title": "Do pleasant Things Yourself, unpleasant things through Others",
+    "body": ""
+  },
+
+  "188": {
+    "title": "Be the Bearer of Praise",
+    "body": ""
+  },
+
+  "189": {
+    "title": "Utilise Another's Wants",
+    "body": ""
+  },
+
+  "190": {
+    "title": "Find Consolation in all Things",
+    "body": ""
+  },
+
+  "191": {
+    "title": "Do not take Payment in Politeness",
+    "body": ""
+  },
+
+  "192": {
+    "title": "Peaceful Life, a long Life",
+    "body": ""
+  },
+
+  "193": {
+    "title": "Watch him that begins with Another's to end with his Own",
+    "body": ""
+  },
+
+  "194": {
+    "title": "Have reasonable Views of Yourself and of your Affairs",
+    "body": ""
+  },
+
+  "195": {
+    "title": "Know how to Appreciate",
+    "body": ""
+  },
+
+  "196": {
+    "title": "Know your ruling Star",
+    "body": ""
+  },
+
+  "197": {
+    "title": "Do not carry Fools on your Back",
+    "body": ""
+  },
+
+  "198": {
+    "title": "Know how to transplant Yourself",
+    "body": ""
+  },
+
+  "199": {
+    "title": "TO find a proper Place by Merit, not by Presumption",
+    "body": ""
+  },
+
+  "200": {
+    "title": "Leave Something to wish for",
+    "body": ""
+  },
+
+  "201": {
+    "title": "They are all Fools who seem so besides half the rest",
+    "body": ""
+  },
+
+  "202": {
+    "title": "Words and Deeds make the Perfect Man",
+    "body": ""
+  },
+
+  "203": {
+    "title": "Know the great Men of your Age",
+    "body": ""
+  },
+
+  "204": {
+    "title": "Attempt easy Tasks as if they were difficult, and difficult as if they were easy",
+    "body": ""
+  },
+
+  "205": {
+    "title": "Know how to play the Card of Contempt",
+    "body": ""
+  },
+
+  "206": {
+    "title": "Know that there are vulgar Natures everywhere",
+    "body": ""
+  },
+
+  "207": {
+    "title": "Be Moderate",
+    "body": ""
+  },
+
+  "208": {
+    "title": "Do not die of the Fools' Disease",
+    "body": ""
+  },
+
+  "209": {
+    "title": "Keep Yourself free from common Follies",
+    "body": ""
+  },
+
+  "210": {
+    "title": "Know how to play the Card of Truth",
+    "body": ""
+  },
+
+  "211": {
+    "title": "In Heaven all is bliss",
+    "body": ""
+  },
+
+  "212": {
+    "title": "Keep to Yourself the final Touches of your Art",
+    "body": ""
+  },
+
+  "213": {
+    "title": "Know how to Contradict",
+    "body": ""
+  },
+
+  "214": {
+    "title": "Do not turn one Blunder into two",
+    "body": ""
+  },
+
+  "215": {
+    "title": "Watch him that acts on Second Thoughts",
+    "body": ""
+  },
+
+  "216": {
+    "title": "Be Expressive",
+    "body": ""
+  },
+
+  "217": {
+    "title": "Neither Love nor Hate forever",
+    "body": ""
+  },
+
+  "218": {
+    "title": "Never act from Obstinacy but from Knowledge",
+    "body": ""
+  },
+
+  "219": {
+    "title": "Do not pass for a Hypocrite",
+    "body": ""
+  },
+
+  "220": {
+    "title": "If you cannot clothe yourself in Lionskin use Foxpelt",
+    "body": ""
+  },
+
+  "221": {
+    "title": "Do not seize Occasions to embarrass Yourself or Others",
+    "body": ""
+  },
+
+  "222": {
+    "title": "Reserve is proof of Prudence",
+    "body": ""
+  },
+
+  "223": {
+    "title": "Be not Eccentric",
+    "body": ""
+  },
+
+  "224": {
+    "title": "Never take Things against the Grain",
+    "body": ""
+  },
+
+  "225": {
+    "title": "Know your chief Fault",
+    "body": ""
+  },
+
+  "226": {
+    "title": "Take care to be Obliging",
+    "body": ""
+  },
+
+  "227": {
+    "title": "Do not be the Slave of First Impressions",
+    "body": ""
+  },
+
+  "228": {
+    "title": "Do not be a Scandalmonger",
+    "body": ""
+  },
+
+  "229": {
+    "title": "Plan out your Life wisely",
+    "body": ""
+  },
+
+  "230": {
+    "title": "Open your Eyes early",
+    "body": ""
+  },
+
+  "231": {
+    "title": "Never let Things be seen half-finished",
+    "body": ""
+  },
+
+  "232": {
+    "title": "Have a Touch of the Trader",
+    "body": ""
+  },
+
+  "233": {
+    "title": "Let not the proffered Morsel be distasteful",
+    "body": ""
+  },
+
+  "234": {
+    "title": "Never trust your Honour to another, unless you have his in Pledge",
+    "body": ""
+  },
+
+  "235": {
+    "title": "Know how to Ask",
+    "body": ""
+  },
+
+  "236": {
+    "title": "Make an Obligation beforehand of what would have to be a Reward afterwards",
+    "body": ""
+  },
+
+  "237": {
+    "title": "Never share the Secrets of your Superiors",
+    "body": ""
+  },
+
+  "238": {
+    "title": "Know what is wanting in Yourself",
+    "body": ""
+  },
+
+  "239": {
+    "title": "Do not be Captious",
+    "body": ""
+  },
+
+  "240": {
+    "title": "Make use of Folly",
+    "body": ""
+  },
+
+  "241": {
+    "title": "Put up with Mockery, but do not practice it",
+    "body": ""
+  },
+
+  "242": {
+    "title": "Push Advantages",
+    "body": ""
+  },
+
+  "243": {
+    "title": "Do not be too much of a Dove",
+    "body": ""
+  },
+
+  "244": {
+    "title": "Create a feeling of Obligation",
+    "body": ""
+  },
+
+  "245": {
+    "title": "Original and out-of-the-way Views",
+    "body": ""
+  },
+
+  "246": {
+    "title": "Never offer Satisfaction unless it is demanded",
+    "body": ""
+  },
+
+  "247": {
+    "title": "Know a little more, Live a little less",
+    "body": ""
+  },
+
+  "248": {
+    "title": "Do not go with the latest Speaker",
+    "body": ""
+  },
+
+  "249": {
+    "title": "Never begin Life with what should end it",
+    "body": ""
+  },
+
+  "250": {
+    "title": "When to change the Conversation",
+    "body": ""
+  },
+
+  "251": {
+    "title": "Use human Means as if there were no divine ones, and divine as if there were no human ones",
+    "body": ""
+  },
+
+  "252": {
+    "title": "Neither belong to Yourself nor entirely to Others",
+    "body": ""
+  },
+
+  "253": {
+    "title": "Do not Explain too much",
+    "body": ""
+  },
+
+  "254": {
+    "title": "Never despise an Evil, however small",
+    "body": ""
+  },
+
+  "255": {
+    "title": "Do Good a little at a time, but often",
+    "body": ""
+  },
+
+  "256": {
+    "title": "Go armed against Discourtesy",
+    "body": ""
+  },
+
+  "257": {
+    "title": "Never let Matters come to a Rupture",
+    "body": ""
+  },
+
+  "258": {
+    "title": "Find someone to share your Troubles",
+    "body": ""
+  },
+
+  "259": {
+    "title": "Anticipate Injuries and turn them into Favours",
+    "body": ""
+  },
+
+  "260": {
+    "title": "We belong to none and none to us, entirely",
+    "body": ""
+  },
+
+  "261": {
+    "title": "Do not follow up a Folly",
+    "body": ""
+  },
+
+  "262": {
+    "title": "Be able to Forget",
+    "body": ""
+  },
+
+  "263": {
+    "title": "Many Things of Taste one should not possess oneself",
+    "body": ""
+  },
+
+  "264": {
+    "title": "Have no careless Days",
+    "body": ""
+  },
+
+  "265": {
+    "title": "Set those under you difficult Tasks",
+    "body": ""
+  },
+
+  "266": {
+    "title": "Do not become Bad from sheer Goodness",
+    "body": ""
+  },
+
+  "267": {
+    "title": "Silken Words, Sugared Manners",
+    "body": ""
+  },
+
+  "268": {
+    "title": "The Wise does at once what the Fool does at last",
+    "body": ""
+  },
+
+  "269": {
+    "title": "Make use of the Novelty of your Position",
+    "body": ""
+  },
+
+  "270": {
+    "title": "Do not condemn alone that which pleases all",
+    "body": ""
+  },
+
+  "271": {
+    "title": "In every Occupation if you know little stick to the safest",
+    "body": ""
+  },
+
+  "272": {
+    "title": "Sell Things by the Tariff of Courtesy",
+    "body": ""
+  },
+
+  "273": {
+    "title": "Comprehend their Dispositions with whom you deal",
+    "body": ""
+  },
+
+  "274": {
+    "title": "Be Attractive",
+    "body": ""
+  },
+
+  "275": {
+    "title": "Join in the Game as far as Decency permits",
+    "body": ""
+  },
+
+  "276": {
+    "title": "Know how to renew your Character",
+    "body": ""
+  },
+
+  "277": {
+    "title": "Display Yourself",
+    "body": ""
+  },
+
+  "278": {
+    "title": "Avoid Notoriety in all Things",
+    "body": ""
+  },
+
+  "279": {
+    "title": "Do not contradict the Contradicter",
+    "body": ""
+  },
+
+  "280": {
+    "title": "Be Trustworthy",
+    "body": ""
+  },
+
+  "281": {
+    "title": "Find Favour with Men of Sense",
+    "body": ""
+  },
+
+  "282": {
+    "title": "Make use of Absence to make youself more esteemed and valued",
+    "body": ""
+  },
+
+  "283": {
+    "title": "Have the Gift of Discovery",
+    "body": ""
+  },
+
+  "284": {
+    "title": "Do not be Imporunate",
+    "body": ""
+  },
+
+  "285": {
+    "title": "Never die of another's Ill-luck",
+    "body": ""
+  },
+
+  "286": {
+    "title": "Do not become responsible for all or for every one",
+    "body": ""
+  },
+
+  "287": {
+    "title": "Never act in a Passion",
+    "body": ""
+  },
+
+  "288": {
+    "title": "Live for the Moment",
+    "body": ""
+  },
+
+  "289": {
+    "title": "Nothing depreciates a Man more than to show he is a Man like other Men",
+    "body": ""
+  },
+
+  "290": {
+    "title": "'Tis a piece of Good Fortune to combine People's Love and Respect",
+    "body": ""
+  },
+
+  "291": {
+    "title": "Know how to Test",
+    "body": ""
+  },
+
+  "292": {
+    "title": "Let your personal Qualities surpass those of your Office",
+    "body": ""
+  },
+
+  "293": {
+    "title": "Maturity",
+    "body": ""
+  },
+
+  "294": {
+    "title": "Be moderate in your Views",
+    "body": ""
+  },
+
+  "295": {
+    "title": "Do not Affect what you have not effected",
+    "body": ""
+  },
+
+  "296": {
+    "title": "Noble Qualities",
+    "body": ""
+  },
+
+  "297": {
+    "title": "Act always as if your Acts were seen",
+    "body": ""
+  },
+
+  "298": {
+    "title": "Three Things go to a Prodigy",
+    "body": ""
+  },
+
+  "299": {
+    "title": "Leave off Hungry",
+    "body": ""
+  },
+
+  "300": {
+    "title": "In one word, be a Saint",
+    "body": ""
   }
+
 }
