@@ -1,7 +1,7 @@
 angular.module('WorldlyWisdom')
 .controller('MainCtrl', 
-  ['$scope', '$routeParams', '$location', 'TotalMaxims',
-function($scope, $routeParams, $location, TotalMaxims) {
+  ['$scope', '$routeParams', '$location', 'TotalMaxims', '$window',
+function($scope, $routeParams, $location, TotalMaxims, $window) {
   var n = parseInt( $location.path().match(/\d{1,3}$/) );
   
   $scope.curMaxim = getCurMaxim();
@@ -17,6 +17,25 @@ function($scope, $routeParams, $location, TotalMaxims) {
     $scope.curMaxim = getCurMaxim('next');
     $location.path('/maxims/' + $scope.curMaxim);
   }
+
+  /** Events **/
+  
+  angular.element($window).bind('keypress', function(e) {
+    if (e.keyCode == 37) {
+      // Left Arrow
+      $scope.prevMaxim();
+      $scope.$apply();
+      e.preventDefault();
+    }
+    else if (e.keyCode == 39) {
+      // Right Arrow 
+      $scope.nextMaxim();
+      $scope.$apply();
+      e.preventDefault();
+    }
+  });
+
+  /** Helpers **/
 
   function getCurMaxim(dir) {
     var match = $location.path().match(/\d{1,3}$/);
