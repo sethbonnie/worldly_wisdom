@@ -45,8 +45,8 @@ app.get('/api/maxim/titles', function(req, res) {
   res.json(Maxim.titles());
 });
 app.get('/api/maxim/:from/thru/:to', function(req, res) {
-  var start = req.params.from
-    , end   = req.params.to;
+  var start = parseInt(req.params.from)
+    , end   = parseInt(req.params.to);
 
   res.type('json');
   res.json(Maxim.bodies.from(start).to(end));

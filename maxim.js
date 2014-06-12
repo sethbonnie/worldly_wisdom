@@ -24,7 +24,7 @@ Maxim.bodies.from = function(x) {
   }
 }
 
-Maxim.TOTAL_MAXIMS = 5;
+Maxim.TOTAL_MAXIMS = 300;
 
 
 /** Private Helpers **/

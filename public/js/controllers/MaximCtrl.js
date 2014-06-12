@@ -6,7 +6,6 @@ function($scope, $routeParams, Maxim, $location, TotalMaxims) {
 
   Maxim.titles(function(titles) {
     $scope.title = titles[$scope.numero];
-    console.log(titles);
   })
   
   Maxim.body($scope.numero, function(maxim) {
