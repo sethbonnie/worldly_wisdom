@@ -71,7 +71,17 @@ function(TotalMaxims, $q, $http) {
     }
     else {
       range = genRange(id);
-      promises.push(getMaximBodies(range.start, range.end) );
+
+      // Only load the maxims if they aren't already loaded
+      if (!bodies[range.start] && !bodies[range.end]) {
+        promises.push(getMaximBodies(range.start, range.end) );
+      }
+      else if (!bodies[range.start]) {
+        promises.push(getMaximBodies(range.start, id));
+      }
+      else if (!bodies[range.end]) {
+        promises.push(getMaximBodies(id, range.end))
+      }
     }
 
     $q.all(promises).then(function() {
