@@ -1,0 +1,68 @@
+.next.maxim,
+.prev.maxim {
+  // position: absolute !important;
+}
+
+.next.ng-enter-stagger, 
+.next.ng-leave-stagger,
+.prev.ng-enter-stagger, 
+.prev.ng-leave-stagger {
+  /* 200ms will be applied between each sucessive enter operation */ 
+  -webkit-transition-delay:0.01s;
+  transition-delay:0.01s;
+
+  /* this is here to avoid accidental CSS inheritance */
+  -webkit-transition-duration:0;
+  transition-duration:0;
+}
+
+.next.ng-enter {
+  -webkit-transition: .5s linear all;
+  transition: .5s linear all;
+  position: absolute;
+  right: -200%;
+}
+
+.next.ng-enter-active {
+  right: 0;
+}
+
+.next.ng-leave {
+  -webkit-transition: .6s linear all;
+  transition: .6s linear all;
+  left: 25%;
+  position: absolute !important;
+}
+
+.next.ng-leave-active {
+  left: -200%;
+  position: absolute !important;
+}
+
+.prev.ng-enter {
+  -webkit-transition: .5s linear all;
+  transition: .5s linear all;
+  
+  position: absolute;
+  left: -200%;
+
+  opacity: 0;
+}
+
+.prev.ng-enter-active {
+  left: 0;
+
+  opacity: 1;
+}
+
+.prev.ng-leave {
+  -webkit-transition: .8s linear all;
+  transition: .8s linear all;
+  left: 25%;
+  position: absolute !important;
+}
+
+.prev.ng-leave-active {
+  left: 200%;
+  position: absolute !important;
+}

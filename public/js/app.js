@@ -1,4 +1,4 @@
-angular.module('WorldlyWisdom', ['ngRoute'])
+angular.module('WorldlyWisdom', ['ngRoute', 'ngAnimate'])
 
 .constant('TotalMaxims', 300)
 
