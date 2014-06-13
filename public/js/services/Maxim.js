@@ -71,6 +71,8 @@ function(TotalMaxims, $q, $http) {
     }
     else {
       range = genRange(id);
+      // Our range goes from 1 to 300, so increment start if it is 0
+      range.start = range.start === 0 ? 1 : range.start;
 
       // Only load the maxims if they aren't already loaded
       if (!bodies[range.start] && !bodies[range.end]) {
