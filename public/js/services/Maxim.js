@@ -55,7 +55,8 @@ function(TotalMaxims, $q, $http) {
   function getMaximBody(id, callback) {
     var start = parseInt(id) - 10
       , end   = parseInt(id) + 10
-      , promises = [];
+      , promises = []
+      , id = parseInt(id);
 
     // normalize id
     if (id < 1) {
@@ -70,20 +71,27 @@ function(TotalMaxims, $q, $http) {
       promises.push( getMaximBodies(1, 10) );
     }
     else {
-      range = genRange(id);
-      // Our range goes from 1 to 300, so increment start if it is 0
-      range.start = range.start === 0 ? 1 : range.start;
+      var lower_bound
+        , higher_bound
+        , i;
 
-      // Only load the maxims if they aren't already loaded
-      if (!bodies[range.start] && !bodies[range.end]) {
-        promises.push(getMaximBodies(range.start, range.end) );
+      // lower bound
+      for (i = id; i > id-10; i--) {
+        if (bodies[i]) {
+          break;
+        }
       }
-      else if (!bodies[range.start]) {
-        promises.push(getMaximBodies(range.start, id));
+      lower_bound = i+1;
+
+      // higher bound
+      for (i = id; i < id+10; i++) {
+        if (bodies[i]) {
+          break;
+        }
       }
-      else if (!bodies[range.end]) {
-        promises.push(getMaximBodies(id, range.end))
-      }
+      higher_bound = i-1;
+
+      promises.push(getMaximBodies(lower_bound, higher_bound));
     }
 
     $q.all(promises).then(function() {
