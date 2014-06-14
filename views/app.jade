@@ -15,17 +15,22 @@ html(ng-app='WorldlyWisdom')
     link(rel='stylesheet',href='/css/app.css')
   body(ng-cloak)
     #container(ng-controller="AppCtrl")
-      #menu(ng-controller="MenuCtrl")
-        .title
-          h2
-            a(href="/") The Art of Worldly Wisdom
+      #menu(ng-controller="MenuCtrl" ng-class="{expand : expandMenu}")
+        .persistent
+          .title
+            h2
+              a(href="/") The Art of Worldly Wisdom
 
-        .search
-          input.search-input
+          .search
+            input.search-input
 
-          i.search-icon.fa.fa-search
+            i.search-icon.fa.fa-search
 
-        .menu-icon.fa.fa-bars
+          .menu-icon.fa.fa-bars(ng-click='expandMenu = !expandMenu')
+
+        .collapsible
+          h3(ng-repeat="title in titles") 
+            span(ng-click="loadMaxim($index)") {{$index}}. {{ title }}
 
       #main(ng-controller="MainCtrl")
         .prev-arrow
