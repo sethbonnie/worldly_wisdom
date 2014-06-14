@@ -14,7 +14,7 @@ html(ng-app='WorldlyWisdom')
     link(rel="stylesheet", href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
     link(rel='stylesheet',href='/css/app.css')
   body(ng-cloak)
-    #container(ng-controller="AppCtrl")
+    #container
       #menu(ng-controller="MenuCtrl" ng-class="{expand : expandMenu}")
         .persistent
           .title
@@ -50,7 +50,6 @@ html(ng-app='WorldlyWisdom')
     //- App Specific
     script(src='/js/app.js')
     script(src='/js/services/Maxim.js')
-    script(src='/js/controllers/AppCtrl.js')
     script(src='/js/controllers/MenuCtrl.js')
     script(src='/js/controllers/MainCtrl.js')
     script(src='/js/controllers/TitlePageCtrl.js')
