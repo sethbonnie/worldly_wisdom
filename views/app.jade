@@ -18,7 +18,7 @@ html(ng-app='WorldlyWisdom')
       #menu(ng-controller="MenuCtrl" ng-class="{expand : expandMenu}")
         .persistent
           .title
-            h2
+            h2(ng-click="expandMenu = false")
               a(href="/") The Art of Worldly Wisdom
 
           .search
