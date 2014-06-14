@@ -10,22 +10,22 @@ function($scope, $routeParams, $location, TotalMaxims, $window) {
   $scope.next = false;
 
   $scope.prevMaxim = function() {
-    n = decrement(n);
 
     $scope.prev = true;
     $scope.next = false;
 
     $scope.curMaxim = getCurMaxim('prev');
+
     $location.path('/maxims/' + $scope.curMaxim);
   }
 
   $scope.nextMaxim = function() {
-    n = increment(n);
 
     $scope.prev = false;
     $scope.next = true;
 
     $scope.curMaxim = getCurMaxim('next');
+
     $location.path('/maxims/' + $scope.curMaxim);
   }
 
@@ -55,6 +55,13 @@ function($scope, $routeParams, $location, TotalMaxims, $window) {
     }
     else if (!match && dir == 'next') {
       n = 1;
+    }
+    else if (match) {
+      n = parseInt(match[0]);
+      if (dir === 'prev')
+        return decrement( n );
+      else if (dir === 'next')
+        return increment( n );
     }
     return n >= 1 && n <= TotalMaxims ? n : 1;
   }
