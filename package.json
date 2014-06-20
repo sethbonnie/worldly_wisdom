@@ -21,7 +21,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "prestart": "grunt",
+    "prestart": "node -e \"require('grunt').tasks();\"",
     "start": "node web.js"
   },
   "engines": {
