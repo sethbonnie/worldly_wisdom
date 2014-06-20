@@ -35,7 +35,7 @@ html(ng-app='WorldlyWisdom')
         .prev-arrow
           i.fa.fa-chevron-left(ng-click="prevMaxim()")
 
-        .maxim(ng-class="{prev: prev, next: next}" ng-view)
+        .next.maxim(ng-class="{prev: prev, next: next}" ng-view)
 
         .next-arrow
           i.fa.fa-chevron-right(ng-click="nextMaxim()")
