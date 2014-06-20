@@ -58,3 +58,33 @@
     }
   }
 }
+
+
+/** Mobile Styles **/
+
+@media all and (max-width: 768px) {
+  .maxim {
+    position: relative;
+    width: 90%;
+    max-width: 480px;
+  }
+
+  .prev-arrow, .next-arrow {
+    position: fixed !important;
+    width: 5%;
+    max-width: 40px;
+    margin-top: 20%;
+    height: 50%;
+    color: @main-text;
+
+    .fa {
+      width: 10%;
+      font-size: 40px !important;
+    }
+  }
+
+  .next-arrow {
+    margin-right: 10px;
+  }
+
+}

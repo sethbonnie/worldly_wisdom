@@ -27,7 +27,11 @@ html(ng-app='WorldlyWisdom')
           h3(ng-repeat="title in titles") 
             span(ng-click="loadMaxim($index)") {{$index}}. {{ title }}
 
-      #main(ng-controller="MainCtrl")
+      #main(ng-controller="MainCtrl",
+        ng-swipe-left="nextMaxim()",
+        ng-swipe-right="prevMaxim()"
+
+        )
         .prev-arrow
           i.fa.fa-chevron-left(ng-click="prevMaxim()")
 
