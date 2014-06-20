@@ -6,7 +6,7 @@ A web rendition of the classic manual by Balthasar Gracian built on a AngularJS 
 Installing and Running
 -----------------------
     
-- First clone and cd into the app directory then run
+- Clone and cd into the app directory then run
     
 ```
   $ npm install
