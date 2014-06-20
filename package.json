@@ -4,16 +4,25 @@
   "description": "Balthasar Gracian's Art of Worldly Wisdom",
   "main": "server.js",
   "dependencies": {
-    "supertest": "~0.9.0",
     "express": "~3.0.0",
     "compression": "~1.0.6",
     "less-middleware": "~0.1.15", 
     "jade": ">= 1.1.5",
 
+    "grunt": "*",
+    "grunt-contrib-concat": "*",
+    "uglify-js": "*",
+    "grunt-contrib-uglify": "*"
+  },
+
+  "devDependencies": {
+    "supertest": "~0.9.0",
     "mocha": ">= 1.9.1"
   },
   "scripts": {
     "test": "mocha",
+    "build": "grunt",
+    "postinstall": "npm run build",
     "start": "node web.js"
   },
   "author": "Seth Bonnie"

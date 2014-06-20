@@ -3,3 +3,6 @@ npm-debug.log
 public/css/*.css
 tmp
 wiki
+
+public/js/*.pre.js
+public/js/*.min.js
