@@ -6,12 +6,12 @@ function($scope, $location, Maxim) {
     var cur_index = curMaxim()
       , maxim_elem = document.getElementsByClassName('maxim');
 
-    if (cur_index < new_index) {
+    if (cur_index && cur_index < new_index) {
       angular.element(maxim_elem)
         .removeClass('prev')
         .addClass('next');
     }
-    else if (cur_index > new_index) {
+    else if (cur_index && cur_index > new_index) {
       angular.element(maxim_elem)
         .addClass('prev')
         .removeClass('next');
@@ -24,7 +24,8 @@ function($scope, $location, Maxim) {
     $scope.titles = title_array;
   });
 
-  function curMaxim() {    
-    return parseInt($location.path().match(/\d{1,3}$/)[0]);
+  function curMaxim() {  
+    var m = $location.path().match(/\d{1,3}$/) 
+    return m ? parseInt(m[0]) : m;
   }
 }])
