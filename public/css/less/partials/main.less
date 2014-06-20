@@ -2,11 +2,11 @@
   position: relative;
   height: 100%;
   width: 100%;
-  padding: 5% 15%;
+  padding: 5% 15% 0;
 
   background-color: @main-bg;
 
-  overflow-y: auto;
+  overflow-y: scroll;
   overflow-x: hidden;
 
   .prev-arrow, .next-arrow {
@@ -34,7 +34,7 @@
   }
 
   .next-arrow {
-    right: 0;
+    right: 10px;
   }
 
   .maxim {
@@ -57,6 +57,45 @@
       font-size: 1.3em;
     }
   }
+
+  .maxim {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -3em; 
+  }
+  .maxim:after {
+    content: "";
+    display: block;
+  }
+  #footer, .maxim:after {
+    /* must be the same height as footer */
+    height: 3em; 
+  }
+  #footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: -10px;
+    margin: 0 auto;
+    color: darken(@main-text, 10%);
+
+    a {
+      color: @main-text;
+      cursor: pointer;
+      text-decoration: none;
+      border-bottom: 1px dotted @main-text;
+
+      &:hover {
+        border-bottom: none;
+        font-weight: bold;
+      }
+
+      .fa:hover {
+        font-size: 1.2em;
+      }
+    }
+  }
+
 }
 
 
