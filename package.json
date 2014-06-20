@@ -21,9 +21,12 @@
   },
   "scripts": {
     "test": "mocha",
-    "build": "grunt",
-    "postinstall": "npm run build",
+    "prestart": "grunt",
     "start": "node web.js"
+  },
+  "engines": {
+     "node": "0.10.x",
+     "npm": "1.4.x"
   },
   "author": "Seth Bonnie"
 }
