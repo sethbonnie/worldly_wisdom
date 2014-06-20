@@ -1,0 +1,50 @@
+doctype html
+html(ng-app='WorldlyWisdom')
+  head
+    title The Art of Worldly Wisdom
+
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(charset='utf-8')
+    // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    // WARNING: Respond.js doesn't work if you view the page via file://
+    //[if lt IE 9]
+      script(src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js")
+      script(src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js")
+
+    link(rel="stylesheet", href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
+    link(rel='stylesheet',href='/css/app.css')
+  body(ng-cloak)
+    #container
+      #menu(ng-controller="MenuCtrl" ng-class="{expand : expandMenu}")
+        .persistent
+          .title
+            h2(ng-click="expandMenu = false")
+              a(href="/") The Art of Worldly Wisdom
+
+          .menu-icon.fa.fa-bars(ng-click='expandMenu = !expandMenu')
+
+        .collapsible
+          h3(ng-repeat="title in titles") 
+            span(ng-click="loadMaxim($index)") {{$index}}. {{ title }}
+
+      #main(ng-controller="MainCtrl",
+        ng-swipe-left="nextMaxim()",
+        ng-swipe-right="prevMaxim()"
+
+        )
+        .prev-arrow
+          i.fa.fa-chevron-left(ng-click="prevMaxim()")
+
+        .next.maxim(ng-class="{prev: prev, next: next}" ng-view)
+
+        .next-arrow
+          i.fa.fa-chevron-right(ng-click="nextMaxim()")
+
+    //- Libraries
+    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js')
+    script(src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.min.js')
+    script(src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-animate.min.js')
+    script(src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-touch.min.js')
+
+    //- App Specific
+    script(src='/js/app.min.js')

@@ -1,0 +1,90 @@
+#main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 5% 15%;
+
+  background-color: @main-bg;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  .prev-arrow, .next-arrow {
+    position: absolute;
+    width: 10%;
+    top: 40%;
+    height: 50%;
+    color: @main-text;
+
+    .fa {
+      width: 100%;
+      font-size: 100px;
+      text-align: center;
+      opacity: .5;
+
+      &:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .prev-arrow {
+    left: 0;
+  }
+
+  .next-arrow {
+    right: 0;
+  }
+
+  .maxim {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    color: @main-text;
+
+    .maxim-numero {
+      color: @main-text-dark;
+      font-size: 1.8em;
+    }
+
+    .maxim-title {
+      font-size: 2.6em;
+    }
+
+    .maxim-body {
+      font-size: 1.3em;
+    }
+  }
+}
+
+
+/** Mobile Styles **/
+
+@media all and (max-width: 768px) {
+  .maxim {
+    position: relative;
+    width: 90%;
+    max-width: 480px;
+  }
+
+  .prev-arrow, .next-arrow {
+    position: fixed !important;
+    width: 5%;
+    max-width: 40px;
+    margin-top: 20%;
+    height: 50%;
+    color: @main-text;
+
+    .fa {
+      width: 10%;
+      font-size: 40px !important;
+    }
+  }
+
+  .next-arrow {
+    margin-right: 10px;
+  }
+
+}
