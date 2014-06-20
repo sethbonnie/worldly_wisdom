@@ -1,6 +1,6 @@
 {
   "name": "worldly_wisdom",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Balthasar Gracian's Art of Worldly Wisdom",
   "main": "server.js",
   "dependencies": {
