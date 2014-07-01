@@ -1,6 +1,6 @@
 The Art of Worldly Wisdom
 ============================
-A web rendition of the classic manual by Balthasar Gracian built on a AngularJS and Node/Express stack.
+A [web rendition](http://artofworldlywisdom.com) of the classic manual by Balthasar Gracian built on a AngularJS and Node/Express stack.
 
 
 Installing and Running
